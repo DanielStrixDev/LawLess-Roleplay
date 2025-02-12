@@ -1,28 +1,22 @@
-Grand Theft Auto San Andreas Multiplayer Сървър - LawLess Roleplay
-(copyright) 2021-2023 Daniel - sTrIx
+# LawLess Roleplay - SA:MP Gamemode
 
-За Windows:
-1. За да пуснете сървъра, натиснете samp-server.cfg
-2. Всеки plugin трябва да завършва без .so
+## Overview
+LawLess Roleplay is a custom SA:MP roleplay gamemode that includes features like personal vehicles, clothing purchases, and more. All systems are written from scratch, except for the libraries.
 
-За Linux:
-1. Изтеглете си папката за линукс от www.samp.com и преместете файловете от изтеглената линукс папка
-към моята, която съм предоставил с гейммод
-2. В server.cfg сложете в края на всеки plugin да има .so
+## Installation
 
-Обща информация:
-1. За да промените нещо по конфигурацията на сървъра, използвайте server.cfg
-2. За да правите промени по гейммода, отворете pawn.exe от папка pawn и цъкнете над избран от вас гейммод.
-Сървърите се компилират, което означава, че ще ви е лесно да намирате грешките
-3. Език на писане - Pawn (подобен на C синтаксис, език без твърде сложни елементи, като вектори и т.н.)
+### For Windows:
+1. Run `samp-server.exe` to start the server.
+2. Make sure each plugin ends with `.so`.
 
-За гейммода:
-Модът е Roleplay, което означава, че играта е близка до истинския живот.
-Откъм системи модът е добре направен, има обири, лични коли, покупка на дрехи и т.н.
-Всичко в мода е изцяло авторско и писано от мен, освен библиотеките
+### For Linux:
+1. Download the Linux folder from [www.samp.com](https://www.samp.com).
+2. Move the files from the downloaded folder to this repository.
+3. In `server.cfg`, make sure each plugin ends with `.so`.
 
-Препоръки:
-Ако искате Pawno-то да се компилира на секундата, то трябва да обновите файловете в папка pawno
+## Configuration
+- To modify server settings, edit `server.cfg`.
+- To modify the gamemode, open `pawn.exe` from the `pawn` folder and select the gamemode you want to edit. The server is automatically compiled.
 
-За връзка с мен:
-Skype: didko.bg@abv.bg
+## Contact
+- Skype: didko.bg@abv.bg
